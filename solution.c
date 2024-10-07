@@ -2,6 +2,12 @@
 
 int main () {
 // correct = 1, incorrect = 0
+    int input = 0; //user input varible
+    int c = 0; //used for if the answer was correct
+    printf ("\nWelcome to the best questions in the WORLD!!!");
+    c = question_e ();
+    (c == 1) ? printf ("\nCorrect!!") : printf ("\nIncorrect *womp womp*");
+
 
 }
 
