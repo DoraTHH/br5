@@ -29,13 +29,37 @@ int question_e () {
     }
     return correct;
 }
-
-int question_w () {
+int question_d () {
+    printf ("\nWhat's the lenght of a rope?");
+    printf ("\n1. Just long enough"
+            "\n2. Too long"
+            "\n3. Too short");
+    int answer = 0;
+    int correct = 0;
+    scanf ("%d", &answer);
+    switch (answer) {
+        case 1:
+        correct = 0;
+            break;
+        case 2:
+        correct = 0;
+            break;
+        case 3:
+        correct = 1;
+            break;
+        default:
+            printf ("Die die die");
+            break;
+        return correct;
+    }
+    
+    
+    int question_w () {
     printf ("\n What is the most common name in the world");
     printf ("\n1. bish bosh"
             "\n2. Muhammed"
             "\n3. Bob");
-    int answer = 0;
+      int answer = 0;
     int correct = 0;
     scanf ("%d", &answer);
     switch (answer) {
@@ -51,6 +75,5 @@ int question_w () {
         default:
             printf ("Die die die");
             break;
-    }
-    return correct;
-}
+        return correct;
+      }
