@@ -28,7 +28,7 @@ int question_e () {
             break;
     }
     return correct;
-}
+};
 int question_d () {
     printf ("\nWhat's the lenght of a rope?");
     printf ("\n1. Just long enough"
@@ -50,8 +50,9 @@ int question_d () {
         default:
             printf ("Die die die");
             break;
+}
         return correct;
-    }
+};
     
     
     int question_w () {
@@ -75,5 +76,6 @@ int question_d () {
         default:
             printf ("Die die die");
             break;
+    }
         return correct;
-      }
+    };
