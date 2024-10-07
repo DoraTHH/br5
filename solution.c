@@ -29,3 +29,28 @@ int question_e () {
     }
     return correct;
 }
+
+int question_w () {
+    printf ("\n What is the most common name in the world");
+    printf ("\n1. bish bosh"
+            "\n2. Muhammed"
+            "\n3. Bob");
+    int answer = 0;
+    int correct = 0;
+    scanf ("%d", &answer);
+    switch (answer) {
+        case 1:
+        correct = 0;
+            break;
+        case 2:
+        correct = 1;
+            break;
+        case 3:
+        correct = 0;
+            break;
+        default:
+            printf ("Die die die");
+            break;
+    }
+    return correct;
+}
