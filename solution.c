@@ -7,6 +7,12 @@ int main () {
     printf ("\nWelcome to the best questions in the WORLD!!!");
     c = question_e ();
     (c == 1) ? printf ("\nCorrect!!") : printf ("\nIncorrect *womp womp*");
+    c = question_d ();
+    (c == 1) ? printf ("\nCorrect!!") : printf ("\nIncorrect *womp womp*");
+    c = question_w ();
+    (c == 1) ? printf ("\nCorrect!!") : printf ("\nIncorrect *womp womp*");
+    c = questionM ();
+    (c == 1) ? printf ("\nCorrect!!") : printf ("\nIncorrect *womp womp*");
 
 
 }
